@@ -37,9 +37,9 @@ public static void futur(boolean affirmatif, String personne, String... verbes) 
         suffixe = "ont";
         break;
         
-        default: //Personne incorrecte : on considère que c'est "on"
-        personne = "on";
-        suffixe = "a";
+        default: //Personne incorrecte : on considère que c'est "MOI !"
+        personne = "Moi, je";
+        suffixe = "ai";
     }
     
     String debutPhrase = personne + " "; 
@@ -58,3 +58,4 @@ public static void futur(String personne, String...verbes) {
 }
 
 }
+
